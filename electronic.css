@@ -1,0 +1,192 @@
+body {
+	zoom: 75%;
+  background-color: #1a1d22;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#possion {
+	position: absolute;
+  width: 250px;
+  height: 85px;
+  top: 0;
+  left: -25px;
+}
+
+.getLink {
+	position: absolute;
+	color: rgb(80, 255, 48);
+	text-decoration: none;
+	text-transform: none;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#position_div {
+	position: absolute;
+	top: 7vh;
+  left: 6vw;
+  z-index: 100;
+}
+
+.oval {
+  position: absolute;
+  width: 1720px;
+  height: 5px;
+  background-color: white;
+  top: 170px;
+  left: 0;
+}
+
+#media {
+	position: absolute;
+	border-radius: 20px;
+	outline: 3px solid #1a1d22;
+	border: 3px solid #ffffff;
+	padding-bottom: 80px;
+	width: 300px;
+	height: 300px;
+	top: 500px;
+	left: 150px;
+	transition: 0.6s;
+}
+
+#media:hover {
+	transition: 0.6s;
+	transform: scale(1.025);
+	opacity: 0.5;
+}
+
+#data-label::before {
+	position: absolute;
+	content: attr(label);
+	color: #ffffff;
+	font-weight: 700;
+	font-family: Droid Sans, sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	top: 820px;
+	left: 160px;
+}
+
+#data-label::after {
+	position: absolute;
+	content: attr(under-label);
+	color: #bfbfbf;
+	font-weight: 500;
+	font-family: Droid Sans, sans-serif;
+	font-size: 20px;
+	top: 850px;
+	left: 160px;
+} 
+
+#data-label {
+	transition: 0.6s;
+}
+
+#data-label:hover {
+	transform: scale(1.025);
+	transition: 0.6s;
+}
+
+#media1 {
+	position: absolute;
+	border-radius: 20px;
+	outline: 3px solid #1a1d22;
+	border: 3px solid #ffffff;
+	padding-bottom: 80px;
+	width: 300px;
+	height: 300px;
+	top: 500px;
+	left: 1230px;
+	transition: 0.6s;
+}
+
+#media1:hover {
+	transition: 0.6s;
+	transform: scale(1.025);
+	opacity: 0.5;
+}
+
+#data-label1::before {
+	position: absolute;
+	content: attr(label);
+	color: #ffffff;
+	font-weight: 700;
+	font-family: Droid Sans, sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	top: 820px;
+	left: 1240px;
+}
+
+#data-label1::after {
+	position: absolute;
+	content: attr(under-label);
+	color: #bfbfbf;
+	font-weight: 500;
+	font-family: Droid Sans, sans-serif;
+	font-size: 20px;
+	top: 850px;
+	left: 1240px;
+} 
+
+#data-label1 {
+	transition: 0.6s;
+}
+
+#data-label1:hover {
+	transform: scale(1.025);
+	transition: 0.6s;
+}
+
+#media2 {
+	position: absolute;
+	border-radius: 20px;
+	outline: 3px solid #1a1d22;
+	border: 3px solid #ffffff;
+	padding-bottom: 80px;
+	width: 300px;
+	height: 300px;
+	top: 500px;
+	left: 680px;
+	transition: 0.6s;
+}
+
+#media2:hover {
+	transition: 0.6s;
+	transform: scale(1.025);
+	opacity: 0.5;
+}
+
+#data-label2::before {
+	position: absolute;
+	content: attr(label);
+	color: #ffffff;
+	font-weight: 700;
+	font-family: Droid Sans, sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	top: 820px;
+	left: 690px;
+}
+
+#data-label2::after {
+	position: absolute;
+	content: attr(under-label);
+	color: #bfbfbf;
+	font-weight: 500;
+	font-family: Droid Sans, sans-serif;
+	font-size: 20px;
+	top: 850px;
+	left: 690px;
+}
+
+#data-label2 {
+	transition: 0.6s;
+}
+
+#data-label2:hover {
+	transform: scale(1.025);
+	transition: 0.6s;
+}

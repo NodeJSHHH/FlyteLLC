@@ -1,0 +1,35 @@
+body {
+	zoom: 75%;
+	overflow-x: hidden;
+	background-color: #1a1d22;
+	margin: 0;
+}
+
+#LOGO {
+	position: absolute;
+	width: 250px;
+	height: 85px;
+	top: 0;
+	left: -50px;
+}
+
+#ncs {
+	position: relative;
+	left: 600px;
+	top: 200px;
+	transition: 0.6s;
+}
+
+#ncs:hover {
+	transition: 0.6s;
+	transform: scale(1.2);
+}
+
+.text {
+	position: relative;
+	font-family: Droid Sans;
+	color: white;
+	font-style: italic;
+	top: 230px;
+	left: 460px;
+}

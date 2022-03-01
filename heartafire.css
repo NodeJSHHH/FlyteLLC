@@ -1,0 +1,191 @@
+body {
+	zoom: 75%;
+  background-color: #1a1d22;
+  overflow-x: hidden;
+}
+
+#LOGO {
+	position: absolute;
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 85px;
+  top: 0;
+  left: -50px;
+}
+
+#collide {
+	position: absolute;
+	bottom: -1400px;
+	left: -10px;
+	width: 1730px;
+	height: 800px;
+	box-shadow: -10px -10px 20px #e1c5fc;
+	transition: 0.4s;
+}
+
+#collide:hover {
+	transition: 0.4s;
+	transform: scale(1.05);
+}
+
+#opc {
+	position: absolute;
+	bottom: -600px;
+	left: -10px;
+	width: 1730px;
+	height: 800px;
+	box-shadow: -5px -5px 15px black;
+	background-color: #080414;
+}
+
+#icon {
+	position: fixed;
+	width: 170px;
+	height: 170px;
+	top: 0;
+	left: 1510px;
+	border-radius: 30px;
+}
+
+.item {
+	position: absolute;
+	transition: 0.6s;
+}
+
+.item:hover {
+	transition: 0.6s;
+	opacity: 0.5;
+}
+
+.getLink {
+	position: absolute;
+	color: rgb(80, 255, 48);
+	text-decoration: none;
+	text-transform: none;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#position_div {
+	position: absolute;
+	width: 3%;
+	top: 7vh;
+  left: 6vh;
+  z-index: 100;
+}
+
+.oval {
+  position: absolute;
+  width: 1720px;
+  height: 3px;
+  background-color: white;
+  top: 170px;
+  left: 0;
+}
+
+.btn_title {
+	position: absolute;
+	max-height: 70px;
+	min-width: 500px;
+	top: 250px;
+	left: 570px;
+	background-color: #1a1d22;
+	color: white;
+	outline: 3px solid white;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 5px 4px 10px black;
+	transition: 0.6s;
+}
+
+.btn_title:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 5px 3px 15px #03ff39;
+	outline: 3px solid #03ff39;
+	transition: 0.6s;
+	cursor: pointer;
+}
+
+.title {
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.pos {
+	position: relative;
+	min-width: 495px;
+	top: 370px;
+	left: 565px;
+}
+
+.pos1 {
+	position: relative;
+	min-width: 495px;
+	top: 570px;
+	left: 70px;
+}
+
+.pos1 {
+	box-shadow: 5px 3px 15px orange;
+	outline: 3px solid orange;
+}
+
+.pos1:hover {
+	box-shadow: 5px 3px 15px yellow;
+	outline: 3px solid yellow;
+}
+
+.videoSlogan {
+	position: absolute;
+	max-width: 740px;
+	max-height: 460px;
+	top: 1300px;
+	left: 440px;
+	border-radius: 40px;
+}
+
+.audioSlogan {
+	position: absolute;
+	top: 1160px;
+	left: 480px;
+}
+
+.audioSloganPreview {
+	position: absolute;
+	top: 1160px;
+	left: 850px;
+}
+
+.data::before {
+	position: absolute;
+	content: attr(data-simple);
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	top: 1125px;
+	left: 590px;
+}
+
+.appData::before {
+	position: absolute;
+	content: attr(data-preview);
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	top: 1125px;
+	left: 945px;
+}
+
+.text {
+	position: absolute;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 50px;
+	font-style: italic;
+	font-weight: 400;
+	left: 420px;
+	top: 70px;
+}

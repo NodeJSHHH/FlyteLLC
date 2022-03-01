@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="electro.css">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Flyte</title>
+	</head>
+	<body>
+		<!-- Открытие модального окна -->	
+			<!--
+			<button id='myBtn' class="btn btnStyles middle">ТЕКСТ ПЕСНИ</button>
+			<a href='link.html'>
+				<button class="btn btnStyles middle" style="position: absolute; top: 400px; left: 1570px;">Ссылки</button>
+			</a>
+		-->
+		<!-- Модальное окно -->
+		<!--
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;
+			</span>
+				<h1>Vanze(feat.Neon Dreams) - Survive</h1>
+				<p id='font__style'>------<br><br>Told you to walk away<br><br>
+				   That was my first and last mistake<br><br>
+				   I blew without your faith<br><br>
+				   Oh what can I do<br><br><br>
+				   Cause I'm just a sinking ship<br><br>
+				   And you're just a pair of lips<br><br>
+				   That I've lost in the moment<br><br>
+				   All I want is for you to come back<br><br><br>
+				   Now I'm caught<br><br>
+				   In the middle of life<br><br>
+				   And I need<br><br>
+				   I need you to survive<br><br><br>
+				   Oh oh oh oh survive<br><br>
+				   I need you to survive<br><br>
+				   Cause without you by my side<br><br>
+				   I can't survive<br><br><br>
+				   Oh oh oh oh oh<br><br>
+				   Survive<br><br><br>
+				   I need you to survive<br><br>
+				   Oh oh oh oh oh<br><br>
+				   Cause without you by my side<br><br>
+				   I can't survive<br><br><br>
+				   And this can be the end<br><br>
+				   I want to settle for being your friend<br><br>
+				   Our broken bond is not too late to mend<br><br>
+				   But what can I do?<br><br><br>
+				   Cause I'm just a sinking ship<br><br>
+				   And you're just a pair of lips<br><br>
+				   That I've lost in the moment<br><br>
+				   All I want is for you to come back<br><br><br>
+				   Now I'm caught<br><br>
+				   In the middle of life<br><br>
+				   And I need<br><br>
+				   I need you to survive<br><br><br>
+				   She said boy won't you walk right<br><br>
+				   So I can give you one more chance<br><br>
+				   You're only living in your damn head<br><br>
+				   (Oh oh oh oh oh)<br><br>
+				   Yeah, I need you to survice<br><br>
+				   Oh oh oh oh oh<br><br>
+				   Cause without you by my side<br><br>
+				   I can't survive<br><br>
+				   Oh oh oh oh oh<br><br><br>
+				   I need you to survive (yeah)<br><br>
+				   Oh oh oh oh oh<br><br><br>
+				   Cause without you by my side<br><br>
+				   I can't survive<br><br>
+				   Oh oh oh oh oh, yeah eh<br><br>
+				   Yeah eh eh<br><br><br>
+				   Yeah, yeah eh<br><br>
+				   Oh oh oh oh oh<br><br>
+				   Cause without you by my side<br><br>
+				   I can't survive<br><br><br>
+				   --------</p>
+			</div>
+		</div>
+		-->
+		<div>
+			<a href="D:\Open Server\OpenServer\domains\Flyte\FlyteLLC.html">
+				<img src='FlyteLOGO.png' id='logo'>
+			</a>
+		</div>
+		<div>	
+			<img src="ncs_img.jpg" class="scale">
+		</div>
+		<div id='position_div'>
+			<button name='read' style='background-color: #1a1d22; border: none;'>
+				<a href="D:\Open Server\OpenServer\domains\Flyte\FlyteLLC.html" class="getLink">
+					<h1>
+						⇄
+					</h1>
+				</a>	
+			</button>
+		</div>
+		<!-- Photo for video -->
+		<!--
+		<div class="sizeImage">	
+			<img src="ncs_img.jpg" class="image">
+		</div>
+	-->
+		<!-- Title -->
+		<!--
+		<div id='mainTitle'>
+			<h1>
+				Vanze(feat.Neon Dreams) - Survive
+			</h1>
+		</div>
+	-->
+		<!-- The end of title -->
+		<!--
+		<div class="sizeDiv">
+			<video controls='' loop='' class="sizeVideo">
+				<source src="Video/yellow.mp4" type="video/mp4">
+			</video>
+		</div>
+		-->
+		<div class="oval"></div>
+		<!--
+		<div class="oval1"></div>
+		<div class="oval2"></div>
+	
+		<div id="position_div1">
+			<audio controls='' loop="">
+				<source src="electro.mp3" type="audio/mp3">
+			</audio>
+		</div>
+		<div id='position_div2'>
+			<audio controls='' loop=''>
+				<source src="electro(preview).mp3" type="audio/mp3">
+			</audio>
+		</div>
+	-->
+		<script>
+
+			/*function viewDiv() {
+				document.getElementById("lyrics").style.display = 'block';
+			}
+			*/
+
+			var modal = 
+			document.getElementById('myModal');
+
+			var btn = 
+			document.getElementById('myBtn');
+
+			var span = 
+			document.getElementsByClassName('close')[0];
+
+			btn.onclick = function() {
+				modal.style.display = 'block';
+			}
+
+			span.onclick = function() {
+				modal.style.display = 'none';
+			}
+
+			window.onclick = function(event) {
+				if(event.target == modal) {
+					modal.style.display = 'none';
+				}
+			}
+		</script>
+	</body>
+</html>
